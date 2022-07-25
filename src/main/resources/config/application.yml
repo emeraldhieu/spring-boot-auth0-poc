@@ -1,0 +1,13 @@
+com:
+  auth0:
+    # This information is retrieved from Auth0 dashboard.
+    # Choose "Regular Web Application".
+    domain: yourDomain
+    clientId: yourClientId
+    clientSecret: yourClientSecret
+
+    # Configure "Allowed Callback URLs" in your Auth0 app
+    callbackUrl: http://localhost:8080/callback
+
+    # Configure "Allowed Logout URLs" in your Auth0 app
+    logoutCallbackUrl: http://localhost:8080/logoutCallback
