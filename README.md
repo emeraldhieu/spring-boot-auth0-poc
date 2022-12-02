@@ -24,11 +24,11 @@ The response of `/login` process looks like this
 
 ```json
 {
-"accessToken": "<accessToken>",
-"idToken": "<idToken>",
-"refreshToken": null,
-"type": "Bearer",
-"expiresIn": 86400
+    "accessToken": "<accessToken>",
+    "idToken": "<idToken>",
+    "refreshToken": null,
+    "type": "Bearer",
+    "expiresIn": 86400
 }
 ```
 
@@ -36,17 +36,18 @@ The id_token can be [JWT-decoded](https://jwt.io/) into
 
 ```json
 {
-  "email": "duchieu.nguyen@zuhlke.com",
-  "email_verified": false,
-  "iss": "https://xyz.auth0.com/",
-  "sub": "auth0|62da51d635c99dc8b8c64f17",
-  "aud": "Ddd0KdKJlDKXcXpSGnAtgp1G8CrwbFQA",
-  "iat": 1658732605,
-  "exp": 1658768605,
-  "acr": "http://schemas.openid.net/pape/policies/2007/06/multi-factor",
-  "amr": [
-    "mfa"
-  ]
+    "email": "duchieu.nguyen@zuhlke.com",
+    "email_verified": false,
+    "iss": "https://xyz.auth0.com/",
+    "sub": "auth0|62da51d635c99dc8b8c64f17",
+    "aud": "Ddd0KdKJlDKXcXpSGnAtgp1G8CrwbFQA",
+    "iat": 1658732605,
+    "exp": 1658768605,
+    "acr": "http://schemas.openid.net/pape/policies/2007/06/multi-factor",
+    "amr":
+    [
+        "mfa"
+    ]
 }
 ```
 
